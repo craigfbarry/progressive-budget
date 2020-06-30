@@ -1,13 +1,10 @@
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
-    "/style.css",
+    "/styles.css",
     "/icons/icon-192x192.png",
     "/icons/icon-512x512.png",
-
-    //Name to be changed?
-    "/dist/bundle.js",
-
+    "/index.js",
   ];
   
   const STATIC_CACHE = "static-cache-v1";
