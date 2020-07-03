@@ -145,11 +145,6 @@ function sendTransaction(isAdding) {
 }
 
 
-function saveRecord(data){
-  console.log("Offline mode");
-  
-}
-
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
